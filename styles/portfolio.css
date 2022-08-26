@@ -1,0 +1,25 @@
+body {
+  background-color: black;
+}
+h1 {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+button {
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  text-align: left;
+}
+.icons {
+  margin: 10px auto;
+  justify-content: space-evenly;
+  color: #ffffff;
+}
