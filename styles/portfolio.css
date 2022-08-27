@@ -4,6 +4,7 @@
 }
 
 body {
+  text-align: center;
   background-color: black;
 }
 h1 {
@@ -14,7 +15,16 @@ h1 {
   line-height: 75px;
   text-transform: uppercase;
 }
+
 h2 {
+  font-size: 50px;
+  line-height: 60px;
+  color: #f65282;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+h3 {
   font-size: 18px;
   line-height: 21px;
   color: #f65282;
@@ -30,14 +40,18 @@ p {
   color: #ffffff;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  text-align: left;
   font-size: 18px;
   line-height: 30px;
 }
+hr {
+  color: #ffffff;
+  max-width: 40%;
+  margin: 0 auto 50px;
+}
 .icons {
-  font-size: 14px;
+  font-size: 24px;
   margin: 10px auto;
-  justify-content: flex-start;
+  justify-content: space-evenly;
   color: #ffffff;
 }
 .btn-default {
@@ -47,4 +61,47 @@ p {
   background-color: #ffffff;
   border-radius: 30px;
   padding: 18px 44.5px;
+}
+
+.btn-default:hover {
+  color: #ffffff;
+}
+
+.btn-outline {
+  font-family: var(--default-font);
+  font-weight: normal;
+  text-transform: uppercase;
+  background-color: none;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  border-radius: 30px;
+  padding: 18px 44.5px;
+}
+.btn-outline:hover {
+  color: black;
+  font-weight: 700;
+  background-color: #ffffff;
+}
+
+.title {
+  max-width: 100%;
+  margin-top: 13px;
+}
+.description {
+  padding-left: 5%;
+}
+
+@media (max-width: 760px) {
+  h1 {
+    font-size: 46px;
+    line-height: 50px;
+  }
+  h2 {
+    margin-top: 10px;
+    font-size: 42px;
+    line-height: 1;
+  }
+  .description {
+    text-align: center !important;
+  }
 }
