@@ -48,6 +48,18 @@ hr {
   max-width: 40%;
   margin: 0 auto 50px;
 }
+
+.about-info {
+  text-align: left;
+}
+.about-info-txt {
+  padding: 0 30px;
+}
+.me {
+  max-width: 50%;
+  padding: 0 30px;
+}
+
 .icons {
   font-size: 24px;
   margin: 10px auto;
@@ -103,5 +115,8 @@ hr {
   }
   .description {
     text-align: center !important;
+  }
+  .about-info {
+    text-align: center;
   }
 }
