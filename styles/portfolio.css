@@ -6,6 +6,7 @@
 body {
   text-align: center;
   background-color: black;
+  font-family: var(--default-font);
 }
 h1 {
   color: #ffffff;
@@ -25,7 +26,7 @@ h2 {
 }
 
 h3 {
-  font-size: 18px;
+  font-size: 20px;
   line-height: 21px;
   color: #f65282;
   text-transform: uppercase;
@@ -49,10 +50,10 @@ hr {
   margin: 0 auto 50px;
 }
 
-.about-info {
+.content-info {
   text-align: left;
 }
-.about-info-txt {
+.content-info-txt {
   padding: 0 30px;
 }
 .me {
@@ -116,7 +117,7 @@ hr {
   .description {
     text-align: center !important;
   }
-  .about-info {
+  .content-info {
     text-align: center;
   }
 }
