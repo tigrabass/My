@@ -56,10 +56,6 @@ hr {
 .content-info-txt {
   padding: 0 30px;
 }
-.me {
-  max-width: 50%;
-  padding: 0 30px;
-}
 
 footer .icons {
   font-size: 24px;
@@ -113,21 +109,17 @@ footer a:hover {
   background-color: #ffffff;
 }
 
-.up {
-  display: none;
-  position: sticky;
-  bottom: 20px;
-  right: 20px;
-  z-index: 99;
-  margin-right: 0;
-  font-size: 12px;
-  padding: 10px 10px;
-}
-
 .title {
   max-width: 100%;
   margin-top: 13px;
+  border-radius: 20px;
 }
+
+.me {
+  max-height: 450px;
+  padding: 0 30px;
+}
+
 .description {
   padding-left: 5%;
 }
