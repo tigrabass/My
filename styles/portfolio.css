@@ -74,6 +74,7 @@ hr {
   background-color: #ffffff;
   border-radius: 30px;
   padding: 18px 44.5px;
+  transition: all 100ms ease-in-out;
 }
 
 .btn-default:hover {
@@ -89,6 +90,7 @@ hr {
   color: #ffffff;
   border-radius: 30px;
   padding: 18px 44.5px;
+  transition: all 100ms ease-in-out;
 }
 .btn-outline:hover {
   color: black;
