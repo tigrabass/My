@@ -26,7 +26,7 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="styles/portfolio.css   " />
-
+    <link rel="stylesheet" href="script/script.js" />
     <title>Alex Lutsenko</title>
   </head>
   <body>
@@ -65,7 +65,7 @@
       </nav>
 
       <div class="hero">
-        <h3 class="my-4">Welcome!</h3>
+        <h3 class="my-4" id="top">Welcome!</h3>
         <h1 class="my-4">Alex Lutsenko</h1>
 
         <p class="my-4">Front-end developer from Ukraine, based in Poland</p>
@@ -129,10 +129,22 @@
     </div>
     <hr />
     <a href="/about.html" class="btn btn-default my-4">Who I am?</a>
-    <div class="d-flex icons">
-      <i class="fa-brands fa-facebook p-2"></i>
-      <i class="fa-brands fa-instagram p-2"></i>
-      <i class="fa-solid fa-envelope p-2"></i>
-    </div>
+    <footer>
+      <div class="d-flex icons mb-3">
+        <a href="mailto:reprotigra@gmail.com">
+          <i class="fa-solid fa-envelope"></i>
+        </a>
+        <a href="https://github.com/tigrabass" target="_blank">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/oleksandra-lutsenko-016018235/"
+          target="_blank"
+        >
+          <i class="fa-brands fa-linkedin linkedin"></i>
+        </a>
+      </div>
+    </footer>
+    <button id="myBtn" title="Go to top" class="btn btn-default up">Up</button>
   </body>
 </html>

@@ -61,12 +61,27 @@ hr {
   padding: 0 30px;
 }
 
-.icons {
+footer .icons {
   font-size: 24px;
-  margin: 10px auto;
   justify-content: space-evenly;
   color: #ffffff;
 }
+
+footer a {
+  transition: all 100ms ease-in-out;
+  border-radius: 50%;
+  border: 1px solid #ffffff;
+
+  padding: 5px 12px;
+}
+footer a .linkedin {
+  padding: 5px 1px;
+}
+footer a:hover {
+  color: #000000;
+  background: #ffffff;
+}
+
 .btn-default {
   font-family: var(--default-font);
   font-weight: 700;
@@ -96,6 +111,17 @@ hr {
   color: black;
   font-weight: 700;
   background-color: #ffffff;
+}
+
+.up {
+  display: none;
+  position: sticky;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  margin-right: 0;
+  font-size: 12px;
+  padding: 10px 10px;
 }
 
 .title {
